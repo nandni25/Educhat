@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "614878686165",
+    "project_id": "college-b82d0",
+    "storage_bucket": "college-b82d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614878686165:android:1dc9181cbbd8da8f2beb5c",
+        "android_client_info": {
+          "package_name": "com.example.colcom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "614878686165-82qjee9l56vf2pcshlko9omkr1c2mncd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwaGTggVEvPhEKTKFfOx3lYb6xejBHyGU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "614878686165-82qjee9l56vf2pcshlko9omkr1c2mncd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

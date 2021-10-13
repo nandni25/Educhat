@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".groupchat">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tool"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/chatrv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/tool"
+    app:stackFromEnd="true"
+    android:layout_above="@+id/chtlayout"
+    tools:listitem="@layout/new_groupchat"
+    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+    />
+    <LinearLayout
+        android:id="@+id/chtlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginBottom="14dp"
+        android:background="@color/cardview_light_background"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/atchbtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@null"
+            android:src="@drawable/ic_baseline_attach_file_24" />
+
+        <EditText
+            android:id="@+id/msget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="start typing...."
+            android:inputType="textCapSentences|textMultiLine"
+            android:background="@null"
+            android:layout_weight="1"/>
+        <ImageButton
+            android:id="@+id/sendbt"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_send_24"
+            android:background="@null"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/grptlt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="108dp"
+        android:text="Group Title"
+        android:textColor="@color/cardview_light_background"
+
+        android:textSize="35dp"
+        android:textStyle="bold"
+        tools:ignore="UnknownId" />
+
+
+</RelativeLayout>

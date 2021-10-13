@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/phone"
+        android:title="call" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_baseline_mail_24"
+        android:title="mail" />
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/e"
+        android:title="E-book"/>
+
+
+    <item android:id="@+id/info"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:title="About"/>
+
+    <item android:id="@+id/logout"
+        android:icon="@drawable/ic_baseline_arrow_forward_24"
+        android:title="Logout"/>
+
+
+
+</menu>
+
+

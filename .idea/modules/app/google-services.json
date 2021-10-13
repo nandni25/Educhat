@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "182652048567",
+    "project_id": "colcom-95ec9",
+    "storage_bucket": "colcom-95ec9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182652048567:android:f7a1403f8ce5dfb6ffe932",
+        "android_client_info": {
+          "package_name": "com.example.colcom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182652048567-ebe5bplric9tqg27ssmbe29ag71ch9b4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.colcom",
+            "certificate_hash": "95f414ddfeb55409dfd3f456b5dd8a25adfdac1e"
+          }
+        },
+        {
+          "client_id": "182652048567-hu30m6lvbtacfjjapahguqkebhcruec8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAb1j53HeTUdivbg6TZrTtCdExaaAm2zLM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "182652048567-hu30m6lvbtacfjjapahguqkebhcruec8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
